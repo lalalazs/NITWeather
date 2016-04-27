@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/BaseAppTheme">
+    </style>
+
+
+    <style name="MainTheme" parent="@style/BaseAppTheme">
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+    </style>
+    <!--toolbar菜单键样式-->
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <style name="CommonTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+    </style>
+    
+</resources>

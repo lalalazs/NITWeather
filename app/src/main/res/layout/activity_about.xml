@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hzs.nitweather.activity.AboutActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#019be1"
+        android:text="基本信息"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="应用简介:"/>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="这是一款基于Material Design风格的简约天气预报软件"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#66666666"/>
+    <TextView
+        android:id="@+id/tv_checkupdate"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="检查更新"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#66666666"/>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="当前版本:"/>
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+
+
+
+</LinearLayout>

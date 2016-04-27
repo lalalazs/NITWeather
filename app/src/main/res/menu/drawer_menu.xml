@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_choice_city"
+            android:icon="@mipmap/ic_location"
+            android:title="选择城市" />
+        <item
+            android:id="@+id/nav_location_city"
+            android:icon="@mipmap/ic_my_location_black_24dp"
+            android:title="自动定位" />
+    </group>
+
+    <item android:title="@string/app_name">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/ic_settings"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ic_about"
+                android:title="关于" />
+        </menu>
+    </item>
+
+</menu>
