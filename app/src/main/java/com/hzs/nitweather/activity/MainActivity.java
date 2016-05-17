@@ -356,7 +356,7 @@ public class MainActivity extends AppCompatActivity implements AMapLocationListe
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");
                 intent.putExtra(Intent.EXTRA_SUBJECT, "分享");
-                intent.putExtra(Intent.EXTRA_TEXT, "http://pan.baidu.com/s/1bo70xm3");
+                intent.putExtra(Intent.EXTRA_TEXT, "http://www.wandoujia.com/apps/com.hzs.nitweather");
                 //intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(Intent.createChooser(intent, getTitle()));
                 break;
