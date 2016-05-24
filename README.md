@@ -1,6 +1,6 @@
 # NITWeather
 天气app
 ## 截图
-![](http://o7of88839.bkt.clouddn.com/b.jpg)
-![](http://o7of88839.bkt.clouddn.com/a.jpg)
-![](http://o7of88839.bkt.clouddn.com/c.jpg)
+![](https://portal.qiniu.com/bucket/lalalazs/resource/b.jpg)
+![](https://portal.qiniu.com/bucket/lalalazs/resource/a.jpg)
+![](https://portal.qiniu.com/bucket/lalalazs/resource/c.jpg)
